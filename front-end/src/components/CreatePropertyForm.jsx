@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Modal from "react-modal";
-import "/src/css/createPropertyForm.css";
 import toast from "react-hot-toast";
+import "/src/css/createPropertyForm.css";
 
 const CreatePropertyForm = ({ setIsModalOpen, setProperties }) => {
   const [isOpen, setIsOpen] = useState(true);
@@ -14,12 +14,6 @@ const CreatePropertyForm = ({ setIsModalOpen, setProperties }) => {
   const handleInputChange = (event) => {
     const { name, value } = event.target;
     setFormData({ ...formData, [name]: value });
-  };
-
-  console.log(formData);
-
-  const openModal = () => {
-    setIsOpen(true);
   };
 
   const closeModal = () => {

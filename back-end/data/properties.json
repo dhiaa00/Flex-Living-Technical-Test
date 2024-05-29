@@ -4315,7 +4315,7 @@
       "directCost": {
         "April:2024": "1779.000"
       },
-      "group": "Cleaning",
+      "group": "Exited",
       "city": "London",
       "fixedCost": 50,
       "__v": 0
@@ -5273,20 +5273,6 @@
       "city": "London",
       "fixedCost": 50,
       "__v": 0
-    },
-    {
-      "_id": "66232864ef5cda786692dfdf",
-      "propertyName": "Dhiaa property",
-      "address": "ERRAHABA N82 HADJOUT",
-      "city": "Hadjout",
-      "group": "Cleaning"
-    },
-    {
-      "_id": "66232864ef5cda786692dfe0",
-      "propertyName": "Test prop",
-      "address": "asdjkas;d",
-      "city": "Montreal",
-      "group": "Full Property List"
     }
   ]
 }
